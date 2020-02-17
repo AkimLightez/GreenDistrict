@@ -24,7 +24,6 @@
     flex-direction: row;
     align-items: center;
     height: 50px;
-    border: 1px black solid;
     margin-top: -35px;
     background-color:#7c9465;
 }
@@ -47,14 +46,13 @@
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    border: 1px red solid;
     height: 50px;
     margin-top: -7px;
 
 }
 .container .sousContainer{
     margin-bottom: 10px;
-    border: 1px blue solid;
+    
 }
 .container .sousContainer h3{
     text-align: center;
