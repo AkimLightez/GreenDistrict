@@ -1,0 +1,114 @@
+
+
+.container {
+    width: 414px;
+    height: 736px;
+    border: 1px black solid;
+    background-color: #eedada;
+}
+.container img .handshake{
+    width: 414px;
+    height: 179px;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.container a:hover{
+    color: white;
+}
+
+.container .menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    border: 1px black solid;
+    margin-top: -35px;
+    background-color:#7c9465;
+}
+
+.container .menu p {
+    font-size: 15px;
+}
+
+.container .menu a {
+    text-decoration: none;
+    color: black;
+}
+.container .menu a:hover{
+    color: white;
+
+}
+
+.container h1{
+    background-color: #7c9465;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    border: 1px red solid;
+    height: 50px;
+    margin-top: -7px;
+
+}
+.container .sousContainer{
+    margin-bottom: 10px;
+    border: 1px blue solid;
+}
+.container .sousContainer h3{
+    text-align: center;
+    font-size: 15px;
+    color: #7c9465;
+
+}
+
+.container .sousContainer .haut{
+    text-align: center;
+}
+.container .sousContainer .milieu p{
+    font-weight: bold;
+}
+
+.container .sousContainer .bas{
+    text-align: center;
+}
+
+.container .sousContainer .bas a{
+    color: black;
+    font-weight: bold;
+}
+.container .sousContainer .bas a:hover{
+    color: #7c9465;
+}
+
+
+.container .sousContainer .info {
+    font-size: 11px;
+    text-align: center;
+    color: #947c7c;
+    
+}
+.container .sousContainer h4{
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: center;
+}
+.container .sousContainer p{
+    font-size: 11px;
+    text-align: center;
+}
+.container .sousContainer ul{
+    font-size: 11px;
+    text-align: center;
+}
+.hyppo{
+    float: right;
+}
+
+.container .sousContainer .detailimg{
+    text-align: right;
+    font-size: 8px;
+    color: #947c7c;
+}
+
