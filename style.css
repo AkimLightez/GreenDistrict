@@ -13,7 +13,7 @@ body {
 .containerDechets {
     width: 414px;
     /* height: 736px; */
-    border: 1px black solid;
+    /* border: 1px black solid; */
     background-color: #eedada;
     display: flex;
     flex-direction: column;
