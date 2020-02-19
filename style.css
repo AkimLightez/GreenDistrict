@@ -22,7 +22,7 @@ body {
 
 .containerAccueil .handshake,
 .containerDechets .handshake {
-    width: 414px;
+    /* width: 414px; */
     height: 179px;
 }
 
@@ -38,7 +38,14 @@ body {
     font-family:"Rubik-Medium" ;
 
 }
+.box{
+border-radius: 28px;
+background: #7c9465;
+box-shadow:  -8px -8px 17px #536344, 
+             8px 8px 17px #a5c586;
+}
 
+            
 /* MENU ACCUEIL & DECHETS */
 .containerAccueil .menu ul,
 .containerDechets .menu ul {
@@ -163,4 +170,8 @@ footer{
 strong {
     text-transform: uppercase;
     font-size: 0.85em;
+}
+.video{
+    display: flex;
+    justify-content: center;
 }
