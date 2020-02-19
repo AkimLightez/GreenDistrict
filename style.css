@@ -1,4 +1,9 @@
+@font-face{
+    font-family: "Rubik-Medium" ;
+    src: url(font/Rubik-Medium.ttf);
+}
 body {
+    
     margin: 0;
     padding: 0;
 }
@@ -12,6 +17,7 @@ body {
     background-color: #eedada;
     display: flex;
     flex-direction: column;
+   
 }
 
 .containerAccueil .handshake,
@@ -29,6 +35,7 @@ body {
     font-size: 50px;
     height: 50px;
     margin-top: -7px;
+    font-family:"Rubik-Medium" ;
 
 }
 
@@ -63,6 +70,12 @@ body {
 .containerDechets a:hover{
     color: white;
 }
+.box{
+    border-radius: 28px;
+background: #7c9465;
+box-shadow:  -8px -8px 17px #536344, 
+             8px 8px 17px #a5c586;
+}
 
 .containerAccueil .sousContainer,
 .containerDechets .sousContainer {
@@ -78,7 +91,8 @@ h3{
 
 .containerAccueil .sousContainer ul,
 .containerDechets .sousContainer ul {
-    font-size: 11px;
+    font-size: 13px;
+    list-style-type: none;
 }
 
 .containerAccueil .sousContainer p,
@@ -93,7 +107,8 @@ h3{
 footer{
     display: flex;
     justify-content: space-around;
-    height: 3em;
+    align-items: center;
+    height: 2.5em;
     padding-left: 4em;
     padding-right: 4em;
     background-color: #BCC9B1;
@@ -144,18 +159,8 @@ footer{
     text-align: center;
 }
 
-.containerDechets .hyppo{
-    float: right;
-}
-
-.containerDechets .sousContainer .detailimg{
-    text-align: right;
-    font-size: 8px;
-    color: #947c7c;
-}
 
 strong {
     text-transform: uppercase;
     font-size: 0.85em;
-    
 }
