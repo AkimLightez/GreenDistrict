@@ -35,14 +35,16 @@ body {
 }
 
 .container a:hover {
-  color: white;
+  color: #7c9465;
 }
 
 .container .box {
   border-radius: 28px;
   background: #7c9465;
-  -webkit-box-shadow: -8px -8px 17px #536344,  8px 8px 17px #a5c586;
-          box-shadow: -8px -8px 17px #536344,  8px 8px 17px #a5c586;
+  -webkit-box-shadow: -8px -8px 17px #536344, 
+ 8px 8px 17px #a5c586;
+          box-shadow: -8px -8px 17px #536344, 
+ 8px 8px 17px #a5c586;
 }
 
 .menu ul {
@@ -71,6 +73,14 @@ body {
   text-transform: uppercase;
   margin-right: 0.4em;
   font-weight: bold;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  color: #ffffff;
 }
 
 .sousContainer {
