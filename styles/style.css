@@ -29,6 +29,15 @@ body {
   font-family: "Rubik-Medium";
 }
 
+.container h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.container h1 a:hover {
+  color: #ffffff;
+}
+
 .container a {
   text-decoration: none;
   color: black;
@@ -41,10 +50,18 @@ body {
 .container .box {
   border-radius: 28px;
   background: #7c9465;
-  -webkit-box-shadow: -8px -8px 17px #536344, 
- 8px 8px 17px #a5c586;
-          box-shadow: -8px -8px 17px #536344, 
- 8px 8px 17px #a5c586;
+  -webkit-box-shadow: -8px -8px 17px #536344,  8px 8px 17px #a5c586;
+          box-shadow: -8px -8px 17px #536344,  8px 8px 17px #a5c586;
+}
+
+.menu a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  color: #6e6464;
 }
 
 .menu ul {
@@ -73,14 +90,6 @@ body {
   text-transform: uppercase;
   margin-right: 0.4em;
   font-weight: bold;
-}
-.menu a {
-  text-decoration: none;
-  color: black;
-}
-
-.menu a:hover {
-  color: #ffffff;
 }
 
 .sousContainer {
@@ -120,7 +129,6 @@ footer {
   padding-left: 4em;
   padding-right: 4em;
   background-color: #BCC9B1;
-  margin-bottom: 0;
 }
 
 footer ul {
@@ -131,6 +139,10 @@ footer ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
+}
+
+footer ul a {
+  margin: 100px;
 }
 
 .sousContainer .haut {
